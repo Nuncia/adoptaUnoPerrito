@@ -1,5 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -12,6 +11,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -24,6 +27,8 @@ a:hover {
 }
 
 body {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Pacifico', cursive;
   margin: 0;
   display: flex;
   place-items: center;
@@ -66,4 +71,47 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.container{
+  width: 1900px;
+}
+
+.encabezado{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.MyCards{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+  height: 184px;
+}
+
+.longBadge{
+  position: inherit;
+  float:none;
+  display:flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+ text-align: center;
+ width: 1500px;
+ margin-bottom: 0%;
+ margin-top: 180px;
+}
+
+.parrafo{
+  margin-top: 100px;
 }
