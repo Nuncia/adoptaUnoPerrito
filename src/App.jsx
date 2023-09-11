@@ -30,8 +30,8 @@ function App() {
         />
         <MyCard
           imagen = {tres}
-          titulo = 'Benito'
-          texto = 'Soy Benito tengo 9 años'
+          titulo = 'Benito y Estrella'
+          texto = 'Somos Estrella y Benito de 9 años'
           colorBadge = 'warning'
           textoBadge = 'Mestizo'
         />
@@ -50,7 +50,7 @@ function App() {
     <div>
     
     </div>
-    <Footer textoFooter = '© 2020 Copyright: Mónica Ayala Huerta'/>
+    <Footer textoFooter = '© 2023 Copyright: Mónica Ayala Huerta'/>
     </>
   )
 }
