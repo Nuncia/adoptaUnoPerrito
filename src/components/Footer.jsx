@@ -1,9 +1,15 @@
+import {PropTypes} from 'prop-types';
+
 const Footer = ({textoFooter}) => {
     return(
-        <div className="footer">
-            {textoFooter}
-        </div>
+        <footer className="footer">
+            <p> {textoFooter} </p>
+        </footer>
     );
 };
 
 export default Footer;
+
+Footer.propTypes = {
+    textoFooter: PropTypes.string.isRequired
+}

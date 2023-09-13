@@ -6,12 +6,11 @@ import uno from './assets/img/uno.jpg';
 import dos from './assets/img/dos.jpg';
 import tres from './assets/img/tres.jpg'
 import cuatro from './assets/img/cuatro.jpg';
-import Paragraph from './components/Paragraph';
 
 function App() {
   return (
     <>
-      <div className='container'>
+      <div style={{width: '1600px', textAlign:'center'}}>
       <Header textoTitulo = 'Adopta un perrito'/>
       <div className='MyCards'>
         <MyCard
@@ -43,14 +42,8 @@ function App() {
           textoBadge = 'Boxer'
         />
       </div>
-      <Paragraph
-        texto= 'Explora nuestra galeria de adopción de perros, podrías encontrar a un gran compañero. Tenemos una variedad de perros con diferentes personalidades y tamaños... todos esperan encontrar un hogar junto a ti.'
-      />
-    </div>
-    <div>
-    
-    </div>
-    <Footer textoFooter = '© 2023 Copyright: Mónica Ayala Huerta'/>
+      </div>
+      <Footer style={{textAlign: 'center'}} textoFooter = 'Explora nuestra galeria de adopción de perros, podrías encontrar a un gran compañero. Tenemos una variedad de perros con diferentes personalidades y tamaños... todos esperan encontrar un hogar junto a ti.'/>
     </>
   )
 }

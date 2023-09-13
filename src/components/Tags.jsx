@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { Badge } from "react-bootstrap";
 
 const Tags = ({colorBadge, textoBadge}) => {
@@ -8,4 +9,10 @@ const Tags = ({colorBadge, textoBadge}) => {
     )
 };
 
+Tags.propTypes = {
+    colorBadge: PropTypes.string.isRequired,
+    textoBadge: PropTypes.string.isRequired
+};
+
 export default Tags;
+
